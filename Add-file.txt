@@ -1,0 +1,20 @@
+To add a text file from your local folder to a newly created branch  on GitHub, follow these steps:
+1. Navigate to Your Repository
+	Open your terminal (or command prompt) and navigate to your local repository's directory:
+	cd path/to/your/repository
+2. Create a New Branch
+	Create or switch to the new branch name
+	git checkout Branch-name
+3. Add Your  File
+	Move or copy your text file into the repository directory if it's not already there. Then, add the file to the staging area. Replace yourfile.txt with the name of your file:
+	git add yourfile.txt
+4. Commit Your Changes
+	Commit the changes with a descriptive message:
+	git commit -m "Add yourfile.txt to the branch"
+5. Push the New Branch to GitHub
+	Push the newly created branch to GitHub:
+	git push origin git-commands
+
+
+
+
