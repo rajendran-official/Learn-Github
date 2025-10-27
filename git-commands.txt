@@ -1,0 +1,10 @@
+git init
+echo "# AI ML COURSE" > README.md
+git add README.md
+git add .
+git status
+git commit -m "Initial commit with README"
+git checkout -b main
+git remote add origin https://github.com/rajendran-official/Learn_python.git
+git push -u origin main
+
